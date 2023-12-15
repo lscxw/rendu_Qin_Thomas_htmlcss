@@ -41,24 +41,28 @@ h1 {
   margin-bottom: -50px;
   margin-top: -60px;
 }
-nav {
+nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-family: "MagicFont";
   /* BORDER TEMPO----A SUPPRIMER-------------   */
-  border-style: solid;
-  border-color: rgb(62, 13, 13);
+  border-style: none;
   border-radius: 15px;
   border-width: 3px;
+  transition: color 0.3ms ease;
   /* -------------------------------- */
 }
 
 /* REMOVE LA GUEULE DEGUEULASSE DES LIENS */
-a {
+nav a {
+  font-size: 2 rem;
   text-decoration: none;
-  color: rgb(247, 255, 204);
+  color: rgb(240, 206, 55);
+}
+nav a:hover {
+  color: rgb(255, 0, 0);
 }
 
 #text1 {
-  color: blue bisque;
+  color: bisque;
 }
