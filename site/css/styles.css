@@ -1,0 +1,64 @@
+@font-face {
+  font-family: MagicFont;
+  src: url("../font/MagicSchoolOne.ttf");
+}
+
+/* LE BACKGROUND PRINCIPAL */
+body {
+  background-color: rgb(30, 0, 0);
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/2227653742440343774/A5C5FB5910A374E04709D39494E567502F6AF7E5/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  background-size: 15%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  margin: 20px;
+  font-size: xx-large;
+}
+
+p {
+  font-family: "MagicFont";
+  color: rgb(191, 156, 3);
+}
+h2 {
+  font-family: "MagicFont";
+  font-size: 50px;
+  color: rgb(145, 123, 22);
+  text-align: center;
+}
+
+h1 {
+  font-family: "MagicFont";
+  font-size: 100px;
+  color: rgb(240, 206, 55);
+  text-align: center;
+}
+.image {
+  background-image: url(https://medias.lavie.fr/api/v1/images/view/6422e9590ce01b7da43de7ab/width_1000/image.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: -100px;
+  margin-right: -100px;
+  margin-bottom: -50px;
+  margin-top: -60px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: "MagicFont";
+  /* BORDER TEMPO----A SUPPRIMER-------------   */
+  border-style: solid;
+  border-color: rgb(62, 13, 13);
+  border-radius: 15px;
+  border-width: 3px;
+  /* -------------------------------- */
+}
+
+/* REMOVE LA GUEULE DEGUEULASSE DES LIENS */
+a {
+  text-decoration: none;
+  color: rgb(247, 255, 204);
+}
+
+#text1 {
+  color: blue bisque;
+}

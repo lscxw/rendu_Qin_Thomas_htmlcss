@@ -1,0 +1,19 @@
+@font-face{
+  font-family: MagicFont;
+  src:url("../font/MagicSchoolOne.ttf");
+}
+
+/* LE BACKGROUND PRINCIPAL */
+body{
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/2227653742440343774/A5C5FB5910A374E04709D39494E567502F6AF7E5/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+
+}
+
+h1{
+  font-family: "MagicFont";
+  font-size: xx-large;
+  color: rgb(240, 206, 55);
+}
