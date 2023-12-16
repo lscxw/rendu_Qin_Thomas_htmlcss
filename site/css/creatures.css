@@ -13,13 +13,14 @@ body {
   margin: 20px;
   font-size: xx-large;
 }
-h1 {
-  font-family: "MagicFont";
-  font-size: 100px;
-  text-align: center;
-  color: rgb(255, 0, 0);
-}
 
+/* -----------------------------------Header------------------------ */
+h1 {
+  font-size: 100px;
+  font-family: "MagicFont";
+  text-align: center;
+  color: rgb(5, 64, 1);
+}
 /* <!-- ------------------------------------------------------------------ --> */
 nav ul {
   display: flex;
@@ -35,11 +36,43 @@ nav ul {
   /* -------------------------------- */
 }
 nav a {
-  font-size: 2 rem;
+  font-size: 2rem;
   text-decoration: none;
   color: rgb(240, 206, 55);
 }
 nav a:hover {
-  color: rgb(50, 0, 0);
+  color: rgb(135, 0, 0);
 }
 /* <!-- ----------------------------------------------------- --> */
+p {
+  color: bisque;
+  font-size: 25px;
+}
+h3 {
+  color: rgb(5, 118, 3);
+  text-align: center;
+}
+
+.image {
+  border-width: 5px;
+  border: 10px rgb(207, 207, 207) ridge;
+  width: 600px;
+}
+
+.image-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-space {
+  margin-top: 500px;
+  margin-bottom: 200px;
+}
+
+footer {
+  background-color: rgb(72, 192, 184);
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}

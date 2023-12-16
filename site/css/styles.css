@@ -5,8 +5,7 @@
 
 /* LE BACKGROUND PRINCIPAL */
 body {
-  background-color: rgb(30, 0, 0);
-  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/2227653742440343774/A5C5FB5910A374E04709D39494E567502F6AF7E5/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  background-color: rgb(0, 0, 0);
   background-size: 15%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -15,45 +14,47 @@ body {
   font-size: xx-large;
 }
 
+/* ------------------SETTINGS GENERAL---------------------------- */
 p {
-  font-family: "MagicFont";
   color: rgb(191, 156, 3);
 }
+
 h2 {
   font-family: "MagicFont";
   font-size: 50px;
-  color: rgb(145, 123, 22);
+  color: rgb(203, 169, 21);
   text-align: center;
 }
 
+/* -----------------------------------Header------------------------ */
 h1 {
   font-family: "MagicFont";
   font-size: 100px;
   color: rgb(240, 206, 55);
   text-align: center;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-image: url("https://medias.lavie.fr/api/v1/images/view/6422e9590ce01b7da43de7ab/width_1000/image.jpg");
+  background-size: 5000px;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-color: rgb(240, 206, 55);
 }
-.image {
-  background-image: url(https://medias.lavie.fr/api/v1/images/view/6422e9590ce01b7da43de7ab/width_1000/image.jpg);
-  background-size: cover;
-  background-position: center;
-  margin-left: -100px;
-  margin-right: -100px;
-  margin-bottom: -50px;
-  margin-top: -60px;
-}
+
+/* ---------------------NAV------------------------- */
 nav ul {
   display: flex;
   justify-content: space-evenly;
   font-family: "MagicFont";
+
   /* BORDER TEMPO----A SUPPRIMER-------------   */
   border-style: none;
+  border-color: rgb(255, 207, 86);
   border-radius: 15px;
   border-width: 3px;
-  transition: color 0.3ms ease;
+  transition: color 2.3ms ease;
   /* -------------------------------- */
 }
-
-/* REMOVE LA GUEULE DEGUEULASSE DES LIENS */
 nav a {
   font-size: 2 rem;
   text-decoration: none;
@@ -65,4 +66,84 @@ nav a:hover {
 
 #text1 {
   color: bisque;
+}
+/* ---------------------BVN---------------------- */
+
+article h3 {
+  color: rgb(240, 206, 55);
+}
+
+#bienvenue {
+  margin: 100px;
+  border-style: none;
+  border-color: rgb(255, 207, 86);
+  border-radius: 15px;
+}
+
+#image2 {
+  border: 10px rgb(207, 207, 207) ridge;
+  border-width: 5px;
+  width: 600px;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  border: 10px rgb(207, 207, 207) ridge;
+  border-width: 5px;
+  float: right;
+  width: 600px;
+}
+/* ----------------Footer-------------------- */
+
+footer {
+  background-color: rgb(135, 207, 202);
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+
+/* ------------------------------RESPONSIVE--------------------------------------- */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 100%;
+    color: rgb(240, 206, 55);
+    text-align: center;
+    background-image: url("https://medias.lavie.fr/api/v1/images/view/6422e9590ce01b7da43de7ab/width_1000/image.jpg");
+    background-size: 5000px;
+    background-repeat: no-repeat;
+  }
+  /* -------Nav */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  .img {
+    margin-left: 500px;
+    width: 100%;
+    height: 100%;
+  }
+  #image2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  footer {
+    background-color: rgb(135, 207, 202);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
 }
